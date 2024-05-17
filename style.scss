@@ -1,0 +1,25 @@
+// @use 'variables';
+// $secondary-2: #DB4444;
+
+.product-container {
+  &__item {
+    font-family: Poppins;
+    &__top {
+        &__img {
+            width: 270px;
+            height: 250px;
+            background-image: url('/products/images/product1.png');
+        }
+    }
+    &__bottom {
+        font-size: 16px;
+        margin-top: 16px;
+        &__name {
+            font-weight: 600;
+        }
+        &__price {
+            color: #DB4444;
+        }
+    }
+  }
+}
